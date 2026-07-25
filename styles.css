@@ -360,3 +360,14 @@ a.mascot{ display:block; text-decoration:none; }
 }
 .bonus-video-card h3{ margin:0 0 6px; font-size:1.2rem; }
 .bonus-video-card > p{ color:var(--ink-dim); font-size:0.92rem; margin:0 0 16px; max-width:70ch; }
+
+/* standalone YouTube videos section */
+.yt-grid{ display:flex; flex-direction:column; gap:26px; }
+.yt-item{
+  background:linear-gradient(165deg, var(--panel), rgba(27,31,77,0.4));
+  border:1px solid var(--line); border-radius:20px; padding:24px 26px;
+  box-shadow:var(--shadow-sm);
+}
+.yt-item h3{ margin:0 0 8px; font-size:1.15rem; font-family:'Baloo 2',cursive; }
+.yt-item p{ color:var(--ink-dim); font-size:0.94rem; line-height:1.65; margin:0 0 16px; max-width:72ch; }
+.yt-item .video-frame-wrap{ margin-top:2px; }
